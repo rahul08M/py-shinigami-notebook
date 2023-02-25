@@ -8,6 +8,13 @@ stream_handler = logging.StreamHandler()   # create stream handler object
 
 
 formatter = logging.Formatter('%(asctime)s | [%(levelname)s] | %(message)s | [%(pathname)s:%(lineno)d]')   # ideal log format
+
+# asctime : is a human read-able time attribute
+# levelname : is a level for the log message ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL')
+# pathname : Full pathname of the source file where the logging call was issued.
+# lineno : Source line number where the logging call was issue
+# you can use different types of LogRecord attributes.
+
 stream_handler.setFormatter(formatter)   # set formatter for stream handler
 
 
