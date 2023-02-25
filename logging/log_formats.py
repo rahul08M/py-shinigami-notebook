@@ -26,4 +26,4 @@ logger.info("A smile is the best way to get oneself out of a tight spot, even if
 logger.warning("Those who cannot acknowledge themselves will eventually fail. - Itachi.")
 
 
-print("Hi there !!!")
+print("Hi there !!! Shinobi")
