@@ -11,3 +11,4 @@ In this example, we set the log level to `DEBUG`, which means that all log messa
 The `logging.debug()`, `logging.info()`, `logging.warning()`, `logging.error()`, and `logging.critical()` functions are used to log messages with different levels of severity. In this example, we log messages with info and warning levels to demonstrate how the logging module works. 
 
 ### 2) [Python logging on AWS Cloudwatch](https://github.com/rahul08M/py-shinigami-notebook/blob/main/logging/aws_cloudwatch_logger.py)
+#### This is a simple example of how to use the Python logging module to send log messages to AWS CloudWatch.
