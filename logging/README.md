@@ -22,3 +22,7 @@ Before running this code, you should have:
 -   Python 3.x installed on your local machine.
 
 The `aws_cloudwatch_logger.py` script contains a simple Python program that uses the logging module and the AWS SDK for Python (Boto3) to send log messages to AWS CloudWatch.
+
+In this example, we set the log level to `INFO`, which means that log messages with a level of `INFO` or higher will be logged.
+
+We create a CloudWatch Logs client using the AWS SDK for Python (Boto3), and use it to create the log group and log stream if they don't exist already. We then set up a CloudWatch Logs handler using the `logging.handlers.SysLogHandler()` function, which sends log messages to AWS CloudWatch over UDP. We also set the log level for the CloudWatch Logs handler to `INFO`.
