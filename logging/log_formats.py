@@ -1,4 +1,5 @@
 import logging
+# https://docs.python.org/3/howto/logging.html
 
 
 logger = logging.getLogger("jonin_logger")   # create a logger object
