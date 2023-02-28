@@ -5,7 +5,7 @@ import logging
 
 
 LOG_GROUP_NAME = "meta"   # constant variable with group name
-# The name of the log group from which logs data was exported.
+# The name of the log group from which logs data was exported
 
 LOG_STREAM_NAME = "meta_strem"   # constant variable with stream name
 # The name of the log stream.
