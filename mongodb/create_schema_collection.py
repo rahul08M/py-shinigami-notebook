@@ -2,7 +2,7 @@ import pymongo
 
 
 client = pymongo.MongoClient('mongodb://localhost:27017/')
-db = client['goshconn']
+db = client['ninja']
 
 # define the schema for the collection
 schema = {
