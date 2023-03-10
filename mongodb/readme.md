@@ -4,6 +4,9 @@
 
 
 ## prerequisite
+
+MongoDB : https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+
 PyMongo: PyMongo is the official Python driver for MongoDB. It provides a simple and easy-to-use interface to interact with MongoDB from Python. To install PyMongo, you can use pip:
 
 ```
