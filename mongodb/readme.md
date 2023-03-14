@@ -60,3 +60,4 @@ schema = {
 # create the collection with the validation schema
 ninja_collection = db.create_collection("ninja_details", validator=schema)
 ```
+
