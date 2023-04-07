@@ -1,6 +1,6 @@
 # mongo with python
 
-### MongoDB is a popular NoSQL document-oriented database system that uses a flexible JSON-like data model and can scale horizontally across multiple servers.
+### MongoDB is a popular NoSQL document-oriented database system that uses a flexible JSON-like data model and can scale horizontally across multiple servers
 
 
 ## prerequisite
